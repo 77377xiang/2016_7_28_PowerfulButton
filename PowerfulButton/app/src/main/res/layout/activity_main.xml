@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiang.powerfulbutton.MainActivity">
+
+    <ImageButton
+       android:src="@drawable/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageButton
+        android:src="@drawable/buttne_selecttor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ZoomButton
+            android:src="@drawable/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
